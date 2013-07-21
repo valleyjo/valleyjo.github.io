@@ -1,46 +1,85 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-    </head>
-    <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
-            </div>
+  <head>
+    <meta charset="UTF-8">
+    <title>Alex Vallejo's Personal Website - {{ page.title }}</title>
+    <meta name="author" content="Alex Vallejo" />
+      <meta name="keywords" content="computer engineering, alex vallejo, personal website, university of pittsburgh" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet" />
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-panels.min.js"></script>
+    <noscript>
+      <link rel="stylesheet" href="css/skel-noscript.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/style-desktop.css" />
+    </noscript>
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-38738961-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+  </head>
+  <body>
+  <!--Google Plus Authorship Tag-->
+  <a href="https://plus.google.com/107417437373730684602?rel=author"></a>
+    <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <div>
+            <h1><a href="http://alex-vallejo.com" id="logo">A Litle About Me</a></h1>
           </div>
-        </div> <!-- /container -->
+        </div>
+      </header>
+    <!-- /Header -->
+    <!-- Nav -->
+      <nav id="nav" class="skel-panels-fixed">
+        <ul>
+          <li {% if page.active-page == "welcome" %} class="current_page_item" {% endif %}> <a href="index.html">Welcome</a></li>
+          <li><a href="AlexVallejoResume.pdf">Resume</a></li>
+          <li {% if page.active-page == "about" %} class="current_page_item" {% endif %}><a href="about.html">About Me</a></li>
+          <li {% if page.active-page == "projects" %} class="current_page_item" {% endif %}><a href="projects.html">Projects</a></li>
+          <li {% if page.active-page == "blog" %} class="current_page_item" {% endif %}><a herf="/blog">Blog</a></li>
+        </ul>
+      </nav>
+    <!-- /Nav -->
 
-    </body>
+    {{ content }}
+
+    <footer id="footer" class="container">
+        <div class="row">
+          <div class="12u">
+            <!-- Contact -->
+              <section>
+                <ul class="contact">
+                  <li><a href="https://www.facebook.com/alex.vallejo2" class="facebook" target="_blank">Facebook</a></li>
+                  <li><a href="http://twitter.com/valleyy_jo" class="twitter" target="_blank">Twitter</a></li>
+                  <li><a href="http://www.linkedin.com/in/alexvallejo1" class="linkedin" target="_blank">LinkedIn</a></li>
+                  <li><a href="http://goo.gl/qkJce" class="googleplus" target="_blank">Google+</a></li>
+                </ul>
+              </section>
+            <!-- /Contact -->
+          
+          </div>
+        </div>
+        <div class="row">
+          <!-- Copyright -->
+            <div id="copyright">
+              &copy; <? php echo date("Y"); ?> Alex Vallejo | Icons: <a href="http://iconify.it">Iconify.it</a> | Design: Alex Vallejo + <a href="http://html5up.net/">HTML5 UP</a>
+            </div>
+          <!-- /Copyright -->
+        </div>
+      </footer>
+    <!-- /Footer -->
+  </body>
 </html>

@@ -1,4 +1,4 @@
-personal-site
+My Personal Website
 =============
 
-My personal website
+web: alex-vallejo.com
