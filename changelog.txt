@@ -85,4 +85,4 @@ PDR & Weight Calculator
 *****07/21/2013*****
 Universal
 -transitioned site to Jekyll
--uses Google CDN to serve jQuery for faster page loads
+-site now under version control (git) and stored on GitHub

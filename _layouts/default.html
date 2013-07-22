@@ -6,43 +6,30 @@
     <meta name="author" content="Alex Vallejo" />
       <meta name="keywords" content="computer engineering, alex vallejo, personal website, university of pittsburgh" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet" />
-    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    
-    {% if page.active-page == blog %}
-    <script src="../js/config.js"></script>
-    <script src="../js/skel.min.js"></script>
-    <script src="../js/skel-panels.min.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-panels.min.js"></script>
     <noscript>
-      <link rel="stylesheet" href="../css/skel-noscript.css" />
-      <link rel="stylesheet" href="../css/style.css" />
-      <link rel="stylesheet" href="../css/style-desktop.css" />
+      <link rel="stylesheet" href="/css/skel-noscript.css" />
+      <link rel="stylesheet" href="/css/style.css" />
+      <link rel="stylesheet" href="/css/style-desktop.css" />
     </noscript>
-    {% else %}
-    <script src="js/config.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/skel-panels.min.js"></script>
-    <noscript>
-      <link rel="stylesheet" href="css/skel-noscript.css" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/style-desktop.css" />
-    </noscript>
-    {% endif %}
-    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-    <!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
-
+    <script src="/js/adjust-link-paths.js"></script>
+    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><script src="/js/html5shiv.js"></script><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" href="/css/ie7.css" /><![endif]-->
   </head>
   <body>
   <!--Google Plus Authorship Tag-->
   <a href="https://plus.google.com/107417437373730684602?rel=author"></a>
     <!-- Header -->
-    
       <header id="header">
         <div class="logo">
           <div>
               {% if page.header-text != null %}
-              <h1>{{ page.header-text }}</h1>
+              <h1><a href="#" id="logo"> {{ page.header-text }} </a></h1>
               {% endif %}
           </div>
         </div>
@@ -51,19 +38,11 @@
     <!-- Nav -->
       <nav id="nav" class="skel-panels-fixed">
         <ul>
-          {% if page.active-page == blog %}
-          <li> <a href="../index.html">Welcome</a></li>
-          <li> <a href="AlexVallejoResume.pdf">Resume</a> </li>
-          <li> <a href="../about.html">About Me</a></li>
-          <li> <a href="../projects.html">Projects</a></li>
-          <li {% if page.active-page == "blog" %} class="current_page_item" {% endif %}><a href="./">Blog</a></li>
-          {% else %}
-          <li {% if page.active-page == "welcome" %} class="current_page_item" {% endif %}> <a href="index.html">Welcome</a></li>
+          <li {% if page.active-tab == "welcome" %} class="current_page_item" {% endif %}> <a href="/index.html">Welcome</a></li>
           <li><a href="AlexVallejoResume.pdf">Resume</a></li>
-          <li {% if page.active-page == "about" %} class="current_page_item" {% endif %}><a href="about.html">About Me</a></li>
-          <li {% if page.active-page == "projects" %} class="current_page_item" {% endif %}><a href="projects.html">Projects</a></li>
-          <li {% if page.active-page == "blog" %} class="current_page_item" {% endif %}><a href="blog/">Blog</a></li>
-          {% endif %}
+          <li {% if page.active-tab == "about" %} class="current_page_item" {% endif %}><a href="/about.html">About Me</a></li>
+          <li {% if page.active-tab == "projects" %} class="current_page_item" {% endif %}><a href="/projects.html">Projects</a></li>
+          <li {% if page.active-tab == "blog" %} class="current_page_item" {% endif %}><a href="/blog/">Blog</a></li>
         </ul>
       </nav>
     <!-- /Nav -->
