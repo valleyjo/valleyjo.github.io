@@ -1,10 +1,10 @@
 .highlight  { 
 	background: #eaeaea; 
-	clear: both; 
+	/*clear: both; 
 	padding: .5em .5em .5em .5em;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	border-radius: 10px;
+	border-radius: 10px;*/
 }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
