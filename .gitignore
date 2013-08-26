@@ -1,4 +1,9 @@
 .DS_Store
 _site/
 *.min.js
-reveal/
+seminar/slides/Gruntfile.js
+seminar/slides/css/
+seminar/slides/js/
+seminar/slides/lib/
+seminar/slides/package.json
+seminar/slides/plugin/
