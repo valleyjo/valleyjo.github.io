@@ -7,9 +7,9 @@ active-tab: blog
 
 <!-- Main -->
 <div id="main-wrapper">
-	<ul class="posts">
+  <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-  	</ul>
+  </ul>
 </div>
