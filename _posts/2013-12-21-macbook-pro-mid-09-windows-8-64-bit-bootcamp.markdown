@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting up MacbookPro mid 09 (MacBookPro5,5) with Windows 8.1 64-bit"
+title: "Boot Camping MacBook Pro Mid '09 (64-bit Windows 8)"
 date: 2013-12-22 00:00:00
 header-text:
 active-tab: blog
