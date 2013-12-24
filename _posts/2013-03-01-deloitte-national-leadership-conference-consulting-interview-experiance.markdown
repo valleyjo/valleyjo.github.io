@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'My Interview for the Deloitte National Leadership Conference'
-date: '2013-03-11 13:00:00
+title: "My Interview for the Deloitte National Leadership Conference"
+date: 2013-03-11 13:00:00
 categories: dnlc consulting
 header-text:
 active-tab: blog
