@@ -4,6 +4,7 @@ title: "Boot Camping MacBook Pro Mid '09 (64-bit Windows 8)"
 date: 2013-12-22 00:00:00
 header-text:
 active-tab: blog
+---
 
 ###What's the problem anyway?!
 Although the hardware inside the mid '09 MacBook Pro (especially mine with a SSD and extra RAM) is entirely sufficient for running Windows 8 Apple does not officially support it! Why? There’s a lot of speculation but no one really knows for sure. So given Apple’s lack of official support, there are several ways online I found on how to get Windows 8 up and running. However, almost all of them were about 32 bit versions of Windows 8 and I only have a 64 bit version available to me.
