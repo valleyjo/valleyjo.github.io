@@ -7,9 +7,20 @@ active-tab: blog
 
 <!-- Main -->
 <div id="main-wrapper">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+
+  <div class="row">
+    <div class="-4u 8u">
+      <p>DISCLAIMER: My talents don't include writing. Or spelling.
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="-4u 8u">
+      <ul class="posts">
+        {% for post in site.posts %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>

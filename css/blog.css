@@ -40,7 +40,7 @@ table {
 /*
 /*****************************************************************************/
 ul.posts {
-  text-align: center;
+  text-align: left;
   list-style-type: none;
   margin-bottom: 2em;
 }
@@ -60,6 +60,12 @@ ul.posts span {
 /* Posts
 /*
 /*****************************************************************************/
+
+/* images */
+.post img {
+  width: 100%;
+  text-align: center;
+}
 
 /* standard */
 .post pre {
