@@ -36,4 +36,4 @@ The mid ’09 MacBook Pro runs Windows 8 pretty well! I wish Apple would officia
 
 For the most part, I’m just thankful it’s working decently well without official support from Apple. I love Mac’s and have used one as my primary computer since ’06. But being a recently hired Microsoft intern I feel it would be good for me to use Windows a bit more and get used to the environment.
 
-\*I’m a pretty light user. I usually have the screen brightness way down, I don’t use bluetooth and I usually am not doing anything computationally intensive.I got ten and a half hours once out of my MacBook Air 13”!
+\*I’m a pretty lite user. I usually have the screen brightness way down, I don’t use bluetooth and I usually am not doing anything computationally intensive.I got ten and a half hours once out of my MacBook Air 13”!
