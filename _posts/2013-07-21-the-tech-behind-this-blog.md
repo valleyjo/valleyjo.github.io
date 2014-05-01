@@ -28,3 +28,6 @@ Jekyll is the glue that holds this website together. It allows me to maintain se
 
 ###Hosting
 This site is currently hosted on Go Daddy but I plan to move to github pages eventually. Go Daddy cost me $60 for 2 years and although this is relatively inexpensive github pages has all the features I need and it’s free! Plus as an added bonus I can deploy with a simple `git push`.
+
+--Alex
+

@@ -47,3 +47,6 @@ He was only trying to mimic a real world situation where you are working with a 
 I found out about 2 weeks later or so that I’d been offered a chance to attend the Deloitte National Leadership Conference during July of the upcoming summer! I was ecstatic and super excited to travel to Deloitte University (DU) for the conference.
 
 I have an additional post detailing my experience at the DNLC and DU.
+
+--Alex
+
