@@ -1,3 +1,4 @@
 name: Alex Vallejo Personal Website
 pygments: true
 exclude: ['Gemfile*', 'LICENSE', 'README.md']
+markdown: kramdown
