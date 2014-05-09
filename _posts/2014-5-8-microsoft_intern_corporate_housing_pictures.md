@@ -7,12 +7,11 @@ title:        "Microsoft Intern Corporate Housing (pictures)"
 date:         2014-5-8 22:10:00
 ---
 
-I know when I was trying to decide if corporate housing was the right option for me, pictures of the place I might be living would have been helpful. To this effect, I've provided some. I imagine all corporate housing options are not **identical** but they are probably pretty similar.
+When I was trying to decide if corporate housing was the right option for me, pictures would have been helpful. To this effect, I've provided some! I imagine all corporate housing options are not **identical** but they are pretty similar.
 
-This particular configuration is a double in Redmond. It's about 3 miles from Microsoft HQ. Getting to work in heavy traffic takes about 10 minutes and 5 with minimal traffic. Redmond is a great location if you hate long commutes like me!
+This particular configuration is a double in Redmond. It's about 3 miles from Microsoft HQ. Getting to work in heavy traffic takes 10 minutes and 5 with minimal traffic. Redmond is a great location if you hate long commutes like me!
 
-Not Pictured:
-Each room has it's own bathroom with shower/bathtub. There are several large closets: one in each bedroom, two inside the front door, a linen closet, and one outside attached to the porch. The apartment also has it's own dedicated washer and dryer. The porch can also fit two chairs comfortably.
+Each room has it's own bathroom with a shower/bathtub. There are several large closets: one in each bedroom, two inside the front door, a linen closet, and one outside attached to the porch. The apartment has it's own dedicated washer and dryer. The porch can also fit two chairs comfortably.
 
 Living area view 1:
 ![Microsoft intern corporate housing living area view 1](/images/microsoft_intern_corporate_housing/living_area_1.jpg)
@@ -35,3 +34,4 @@ Master Bedroom:
 Outside:
 ![Microsoft intern corporate housing outside](/images/microsoft_intern_corporate_housing/outside.jpg)
 
+--Alex
