@@ -2,7 +2,7 @@
 layout: post
 title: "My Interview for the Deloitte National Leadership Conference"
 date: 2013-03-11 13:00:00
-categories: dnlc consulting
+categories: Deloitte dnlc consulting
 header-text:
 active-tab: blog
 ---
@@ -35,7 +35,7 @@ After the behavioral interview, I was given a refill on my glass of water and ta
 
 We talked about upgrading the software and putting all of the old information in the new software. We also talked about custom developing software for our purposes and how we would go about doing that.
 
-My second case interview question was similar to this: “I run a non-profit and I use software to record information at donation collection points all over the world. The data we are collecting from these collection points is so erroneous and inconsistently formatted that it is of no benefit to my organization. How would you go about architecting a solution that would produce viable data?”. 
+My second case interview question was similar to this: “I run a non-profit and I use software to record information at donation collection points all over the world. The data we are collecting from these collection points is so erroneous and inconsistently formatted that it is of no benefit to my organization. How would you go about architecting a solution that would produce viable data?”.
 
 Reading “Case in Point” teaches you to always ask questions about the situation. After some digging I got the interviewer to tell me that volunteers were the ones entering data into the system and they had no consistent training. That’s part of the reason for the inconsistency. Additionally, the software only worked in English so foreign users had a tough time understanding what they were supposed to do.
 
@@ -49,4 +49,3 @@ I found out about 2 weeks later or so that I’d been offered a chance to attend
 I have an additional post detailing my experience at the DNLC and DU.
 
 --Alex
-

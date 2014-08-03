@@ -1,13 +1,13 @@
 ---
-header-text:  
-categories:   Microsoft Internship
+header-text:
+categories:   Microsoft intern tips
 active-tab:   blog
 layout:       post
 title:        "Microsoft Internship Pro Tips"
 date:         2014-7-26 17:55:00
 ---
 
-I just finished my internship with Microsoft and I wanted to share some pro tips while they're still fresh on my mind. Some background information: I was a SDE Intern with OneDrive and I did receive a full time offer for after graduation. 
+I just finished my internship with Microsoft and I wanted to share some pro tips while they're still fresh on my mind. Some background information: I was a SDE Intern with OneDrive and I did receive a full time offer for after graduation.
 
 ###Start dates: your lucky number is three
 Chose the third start date if you can. I started on the first possible day and it was too early. There weren't many interns on campus yet and it took me until around week four to make some solid friendships. All of my friends were still around for a few weeks when I left and there were still official programs being put on by the MS intern program.
@@ -17,7 +17,7 @@ Hit the ground running with your project. Stay late if you have to; don't leave 
 
 With the super flexible work hours Microsoft has, it's easy to get distracted. All managers are different but my officemate and I were afforded the freedom to arrive and leave when we pleased as long as we were in attendance for any required meetings (typically that was only our daily scrum at 11am).
 
-My officemate would come late and leave early for the first couple weeks and this really set him back in the long run. While he had the freedom to do this, he wasn't getting done what he needed to. At his midterm review our manager told him he was a few weeks behind. He really kicked into gear after this and devoted a lot more time to his project;  often staying nine or ten hours a day. This wasn't enough. Lost development time is rarely ever reclaimed. In the short twelve weeks you have for your internship, you can't afford to lose any time. Although his work ethic was commendable it wasn't enough to convince our manager and he didn't get a return offer. 
+My officemate would come late and leave early for the first couple weeks and this really set him back in the long run. While he had the freedom to do this, he wasn't getting done what he needed to. At his midterm review our manager told him he was a few weeks behind. He really kicked into gear after this and devoted a lot more time to his project;  often staying nine or ten hours a day. This wasn't enough. Lost development time is rarely ever reclaimed. In the short twelve weeks you have for your internship, you can't afford to lose any time. Although his work ethic was commendable it wasn't enough to convince our manager and he didn't get a return offer.
 
 Hit the ground running with your project, it's better to finish early than be behind.
 
