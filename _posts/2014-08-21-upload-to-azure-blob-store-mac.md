@@ -11,7 +11,7 @@ When I was doing the initial work required to host the assets for this website o
 
 I developed a python script that takes care of uploading files to Azure blob store that works well on Mac. It's simple to use and gets the job done. It doesn’t have a UI or anything fancy but it worked very well for getting my assets in the cloud.
 
-Gheck out the full script [here](https://gist.github.com/valleyjo/02e3735b064818881727).
+Check out the full script [here](https://gist.github.com/valleyjo/02e3735b064818881727).
 
 
 ####Instructions
