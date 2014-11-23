@@ -11,6 +11,7 @@
  *  8) copy all of this text and paste it in your console -> press enter
  *  9) type "ppl = " and paste in the list you just copied -> press enter
  *  10) type next() -> press enter
+ *  11) type next() and press enter to see the next 10 people
  */
 
 var number_viewed_profiles= 0;
