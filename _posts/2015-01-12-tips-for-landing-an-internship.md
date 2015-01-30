@@ -7,7 +7,7 @@ title:        "Tips for Landing a Tech Internship"
 date:         2015-1-12 13:48:00
 ---
 
-A friend of a friend emailed me and asked for advice on how to get an internship. I realized this info might be helpful to other people too so I modified my responce a but and posted it here.
+A friend of a friend emailed me and asked for advice on how to get an internship. I realized this info might be helpful to other people too so I modified my response a bit and posted it here.
 
 Work hard in school. The material you learn in class provides the foundation for what you’ll be learning in the workplace. However, don’t focus exclusively on school work. Believe it or not many companies really don’t care about GPA (as long as it’s above a 2.5 or so). They care about what kind of projects you’ve done, how quickly you can learn and how you problem solve.
 
