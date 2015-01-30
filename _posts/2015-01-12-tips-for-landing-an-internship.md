@@ -7,7 +7,7 @@ title:        "Tips for Landing a Tech Internship"
 date:         2015-1-12 13:48:00
 ---
 
-This is just a general overview on how to acquire an internship offer. There is much more and as I mention at the end of this post I'd be happy to talk to you individually about your specific situation.
+A friend of a friend emailed me and asked for advice on how to get an internship. I realized this info might be helpful to other people too so I modified my responce a but and posted it here.
 
 Work hard in school. The material you learn in class provides the foundation for what you’ll be learning in the workplace. However, don’t focus exclusively on school work. Believe it or not many companies really don’t care about GPA (as long as it’s above a 2.5 or so). They care about what kind of projects you’ve done, how quickly you can learn and how you problem solve.
 
@@ -27,6 +27,6 @@ During my internship with Microsoft I noticed that almost everyone had previous 
 
 When you evaluate your offers pick the one where you feel you can learn the most, not necessarily the one that pays the most. My first internship was actually my lowest paying offer but I felt I could learn the most there, and I absolutely did. I wouldn't have gotten my internship at Microsoft without that experience.
 
-I’d be happy to offer you personal advice get in touch on twitter or via email and hopefully I can offer some guidance! Best of luck!
+I’d be happy to offer you personal advice if you're interested. Get in touch on twitter or via email and hopefully I can offer some guidance! Best of luck!
 
 —Alex
