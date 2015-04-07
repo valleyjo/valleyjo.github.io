@@ -15,7 +15,7 @@ CJ went to the DNLC the previous summer and accepted an internship position with
 ###DNLC Interview Preparation
 I got the lowdown of what the interview would be like from both CJ and another close friend who also accepted a BTA internship for the upcoming summer. I found out I would have three total interviews, one behavioral and two case. For the behavioral I reviewed traditional behavioral interview resources from my career services department at school. For the case interview prep, I got a copy of [“Case In Point”](http://www.amazon.com/Case-Point-Complete-Interview-Preparation/dp/0971015864) which I recommend you study extensively if you are preparing for a case interview.
 
-“Case in Point” is pretty helpful but I found the practice case questions included in the book to be slightly irrelevant for a tech consulting interview. I would recommend you skip the practice questions in the book but throughly study the sections that explain how to tackle a case interview. All case interviews are similarly structured and the book gives great insight on how you should prepare. Another one of my good friends works for Mckinsey as a consultant and he went over a few practice case interviews with me to get me prepared.
+“Case in Point” is pretty helpful but I found the practice case questions included in the book to be slightly irrelevant for a tech consulting interview. I would recommend you skip the practice questions in the book but thoroughly study the sections that explain how to tackle a case interview. All case interviews are similarly structured and the book gives great insight on how you should prepare. Another one of my good friends works for Mckinsey as a consultant and he went over a few practice case interviews with me to get me prepared.
 
 One sample question he gave me was: “I run a company that produces web analytics software. In the past year my sales have gone down 35%. If I go through another year with similar losses I will be out of business. What can I do to improve my sales?”.
 
@@ -35,7 +35,7 @@ After the behavioral interview, I was given a refill on my glass of water and ta
 
 We talked about upgrading the software and putting all of the old information in the new software. We also talked about custom developing software for our purposes and how we would go about doing that.
 
-My second case interview question was similar to this: “I run a non-profit and I use software to record information at donation collection points all over the world. The data we are collecting from these collection points is so erroneous and inconsistently formatted that it is of no benefit to my organization. How would you go about architecting a solution that would produce viable data?”.
+My second case interview question was similar to this: “I run a non-profit and I use software to record information at donation collection points all over the world. The data we are collecting from these collection points is so erroneous and inconsistently formatted that it is of no benefit to my organization. How would you go about devising a solution that would produce viable data?”.
 
 Reading “Case in Point” teaches you to always ask questions about the situation. After some digging I got the interviewer to tell me that volunteers were the ones entering data into the system and they had no consistent training. That’s part of the reason for the inconsistency. Additionally, the software only worked in English so foreign users had a tough time understanding what they were supposed to do.
 

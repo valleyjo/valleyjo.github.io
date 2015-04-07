@@ -12,7 +12,7 @@ I just finished my internship with Microsoft and I wanted to share some pro tips
 ###Start dates: your lucky number is three
 Chose the third start date if you can. I started on the first possible day and it was too early. There weren't many interns on campus yet and it took me until around week four to make some solid friendships. All of my friends were still around for a few weeks when I left and there were still official programs being put on by the MS intern program.
 
-###You gotta deiver!
+###You gotta deliver!
 Hit the ground running with your project. Stay late if you have to; don't leave after eight hours for the simple fact that you've been working for eight hours. The intern program is full of fun and games but the bottom line is that you have to deliver on your project. I've heard rumors that your midterm review will make or break you. I can pretty much confirm these rumors after my experience this summer.
 
 With the super flexible work hours Microsoft has, it's easy to get distracted. All managers are different but my officemate and I were afforded the freedom to arrive and leave when we pleased as long as we were in attendance for any required meetings (typically that was only our daily scrum at 11am).

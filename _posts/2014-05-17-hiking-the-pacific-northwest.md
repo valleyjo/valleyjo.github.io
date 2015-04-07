@@ -7,7 +7,7 @@ title:        "Hiking the Pacific Northwest"
 date:         2014-5-17 13:37:00
 ---
 
-Every weekend there's a group of Microsoft interns that go hiking. This weekend we hiked the 'Lower Grey Wolf River' trail in Olympic National Park which is on the Olympic peninsula. It was about a two and a half hour trip from Redmond to the trailhead with one and a half hours of driving and the other hour spent waiting for and aboard the Bainsbridge Island ferry.
+Every weekend there's a group of Microsoft interns that go hiking. This weekend we hiked the 'Lower Grey Wolf River' trail in Olympic National Park which is on the Olympic peninsula. It was about a two and a half hour trip from Redmond to the trail head with one and a half hours of driving and the other hour spent waiting for and aboard the Bainsbridge Island ferry.
 
 The terrain felt familiar despite this being my first real hike in the pacific northwest. The forest lacked the hardwoods I'm used to seeing and had even more evergreen trees in their place.
 
