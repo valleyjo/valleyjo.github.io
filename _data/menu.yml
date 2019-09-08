@@ -14,9 +14,9 @@
 - title: "Miscellany"
   href: "/miscellany/"
   subcategories:
-    - subtitle: "Cats"
-      subhref: "/miscellany/courses/"
-    - subtitle: "Body Building"
+    - subtitle: "Strength Training"
       subhref: "/miscellany/extracurricular/"
     - subtitle: "Travel"
       subhref: "/miscellany/travel/"
+    - subtitle: "Cats"
+      subhref: "/miscellany/courses/"
