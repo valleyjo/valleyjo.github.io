@@ -11,7 +11,7 @@ permalink: /miscellany/strength-training/
   <li>Body weight: 135 lbs</li>
   <li>Body fat: 12% (measured via In Body scan)</li>
   <li>Bench Press (3x5): 185 lbs</li>
-  <li>Squat (3x5): 185 lbs</li>
+  <li>Squat (3x5): 225 lbs</li>
 </ul>
 
 <!-- 
