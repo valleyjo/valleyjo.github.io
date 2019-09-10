@@ -18,3 +18,7 @@ permalink: /miscellany/strength-training/
 <h1>Journey</h1>
 I first started weight lifting when I was 19.
 -->
+
+<h1>Barbell Weight Calculator</h1>
+<p>I put the wrong weight on the barbell an embarrising number of times. I made this weight calculator a long time ago to help me never make this mistake again!</p>
+<p><b><a href="{{"/projects/barbell-weight-calculator" | prepend: site.base_url}}">Try it out here</a></b></p>

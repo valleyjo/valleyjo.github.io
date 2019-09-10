@@ -16,7 +16,7 @@ function calculate(){
 		document.getElementById('output').innerHTML = 'Please enter a number.';
 		return;
 	}
-	
+
 	if (weight % 5 != 0){
 		document.getElementById('output').innerHTML = 'This weight cannot be distributed equally on both sides of the barbell.';
 		return;
@@ -24,7 +24,7 @@ function calculate(){
 
 	if (weight < 45){
 		document.getElementById('output').innerHTML = 'This weight is less than the bar.';
-		return;	
+		return;
 	}
 
 	//Subtract the weight of the bar and divide weight on each side
@@ -39,22 +39,22 @@ function calculate(){
 		fortyFive++;
         weightPerSide -= 45;
     }
-        
+
     else if (weightPerSide / 25 >= 1){
     	twentyFive++;
         weightPerSide -= 25;
     }
-        
+
     else if (weightPerSide / 10 >= 1){
     	ten++;
         weightPerSide -= 10;
 	}
-        
+
     else if (weightPerSide / 5 >= 1){
         five++;
         weightPerSide -= 5;
     }
-        
+
     else if (weightPerSide > 0){
         twoPointFive++;
         weightPerSide -= 2.5;
@@ -73,20 +73,20 @@ if (fortyFive > 0)
 //No multiples of 25. 2 x 25 becomes one 5 and one 45
 if (twentyFive > 0)
     result += twentyFive + " 25 pound weight<br>";
-        
+
 if (ten > 0)
     if (ten > 1)
         result += ten + " 10 pound weights</br>";
     else
         result += ten + " 10 pound weight</br>";
-        
+
 //There are no multiples of 5 or 2.5. Two fives become a 10. Two 2.5's become a 5.
 if (five > 0)
     result += five + " 5 pound weight</br>";
-        
+
 if (twoPointFive > 0)
     result += twoPointFive + " 2.5 pound weight";
 
-document.getElementById('output_info').innerHTML = "Put on each side: </br>";
+document.getElementById('output_info').innerHTML = "Put on each side:";
 document.getElementById('output').innerHTML = result;
-	}
+}
