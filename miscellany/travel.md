@@ -7,7 +7,7 @@ permalink: /miscellany/travel/
 # Destinations
 Listed in chronological order, most recent first.
 
-# Patagonia & Chilie
+# Patagonia & Chile
 Duration 10 days
 
 # France - Paris (HONEYMOON!)
