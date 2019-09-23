@@ -17,10 +17,10 @@ Here is a non-exhaustive list of some projects.
   </li>
   <li>
     <b>Personal Data Report</b>: I have been interested in personal data for a long time. In 2013 I created this personal data report using D3.js. I only had a small amount of data but the project was super fun. I was inspired by <a href="http://jehiah.cz/one-two/">Jehiah Czebotar's Personal Annual Reports</a>.<br>
-    <a href=""><div class="color-button">live demo</div></a><a href="https://github.com/valleyjo/valleyjo.github.io/blob/ad53801e61da4701672753f3c1baff59d251a72c/js/pdr.js"><div class="color-button">code</div></a>
+    <a href=""><div class="color-button">live demo</div></a><a target="_blank" href="https://github.com/valleyjo/valleyjo.github.io/blob/ad53801e61da4701672753f3c1baff59d251a72c/js/pdr.js"><div class="color-button">code</div></a>
   </li><br>
   <li>
     <b>Weight Calculator</b>: I have put the wrong weight on the barbell while weight lifting too many times. So many that I decided to make this little barbell weight calculator to assist me. Before I had most weight combinations in my range memorized, I did use this calculator a bit to double check.<br>
-    <a href="{{ "/projects/barbell-weight-calculator" | prepend: site.base_url }}"><div class="color-button">live demo</div></a><a href="https://github.com/valleyjo/valleyjo.github.io/blob/ad53801e61da4701672753f3c1baff59d251a72c/js/weightcalc.js"><div class="color-button">code</div></a>
+    <a href="{{ "/projects/barbell-weight-calculator" | prepend: site.base_url }}"><div class="color-button">live demo</div></a><a target="_blank" href="https://github.com/valleyjo/valleyjo.github.io/blob/ad53801e61da4701672753f3c1baff59d251a72c/js/weightcalc.js"><div class="color-button">code</div></a>
   </li>
 </ul>

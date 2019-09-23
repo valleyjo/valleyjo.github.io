@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Title of post 1
+title: Code Post Example
 date: 2018-01-10 15:10:00
 description: An apt description of the post
 categories: [rnn, discussion]

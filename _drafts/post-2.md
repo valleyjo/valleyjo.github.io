@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Title of post 2
+title: A Mostly Text Post
 date: 2018-01-10 15:01:00
 description: An apt description of your post
 categories: [rnn, regularization]
