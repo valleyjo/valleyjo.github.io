@@ -1,94 +1,19 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Alex Vallejo's Personal Website - {{ page.title }}</title>
-    <meta name="author" content="Alex Vallejo" />
-      <meta name="keywords" content="computer engineering, alex vallejo, personal website, university of pittsburgh" />
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet" />
-    <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
-    {% if page.active-tab == "blog" %}
-      <link href="/css/blog.css" rel="stylesheet" type="text/css" />
-      <link href="/css/syntax.css" rel="stylesheet" type="text/css" />
-    {% endif %}
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script src="/js/config.js"></script>
-    <script src="/js/skel.min.js"></script>
-    <script src="/js/skel-panels.min.js"></script>
-    <noscript>
-      <link rel="stylesheet" href="/css/skel-noscript.css" />
-      <link rel="stylesheet" href="/css/style.css" />
-      <link rel="stylesheet" href="/css/style-desktop.css" />
-    </noscript>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-38738961-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><script src="/js/html5shiv.js"></script><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
-    <!--[if lte IE 7]><link rel="stylesheet" href="/css/ie7.css" /><![endif]-->
 
-  </head>
+  {% include head.html %}
+
   <body>
-  <!--Google Plus Authorship Tag-->
-  <a href="https://plus.google.com/107417437373730684602?rel=author"></a>
-    <!-- Header -->
-      <header id="header">
-        <div class="logo">
-          <div>
-              {% if page.header-text != null %}
-              <h1><a href="#" id="logo"> {{ page.header-text }} </a></h1>
-              {% endif %}
-          </div>
-        </div>
-      </header>
-    <!-- /Header -->
-    <!-- Nav -->
-      <nav id="nav" class="skel-panels-fixed">
-        <ul>
-          <li {% if page.active-tab == "welcome" %} class="current_page_item" {% endif %}> <a href="/index.html">Welcome</a></li>
-          <li><a href="AlexVallejoResume.pdf">Resume</a></li>
-          <li {% if page.active-tab == "about" %} class="current_page_item" {% endif %}><a href="/about.html">About Me</a></li>
-          <li {% if page.active-tab == "projects" %} class="current_page_item" {% endif %}><a href="/projects.html">Projects</a></li>
-          <li {% if page.active-tab == "blog" %} class="current_page_item" {% endif %}><a href="/blog.html">Blog</a></li>
-        </ul>
-      </nav>
-    <!-- /Nav -->
 
-    {{ content }}
+    {% include header.html %}
 
-    <footer id="footer" class="container">
-        <div class="row">
-          <div class="12u">
-            <!-- Contact -->
-              <section>
-                <ul class="contact">
-                  <li><a href="https://www.facebook.com/amvallejo" class="facebook" target="_blank">Facebook</a></li>
-                  <li><a href="http://twitter.com/valleyjo_" class="twitter" target="_blank">Twitter</a></li>
-                  <li><a href="http://www.linkedin.com/in/amvallejo" class="linkedin" target="_blank">LinkedIn</a></li>
-                  <li><a href="https://plus.google.com/107417437373730684602/posts" class="googleplus" target="_blank">Google+</a></li>
-                </ul>
-              </section>
-            <!-- /Contact -->
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
 
-          </div>
-        </div>
-        <div class="row">
-          <div class="12u">
-            <!-- Copyright -->
-            <div id="copyright">
-              &copy; Alex Vallejo | Design: Alex Vallejo + <a href="http://html5up.net/">HTML5 UP</a>
-            </div>
-            <!-- /Copyright -->
-          </div>
-        </div>
-      </footer>
-    <!-- /Footer -->
+    {% include footer.html %}
   </body>
+
 </html>

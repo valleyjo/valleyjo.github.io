@@ -1,0 +1,9 @@
+<dl id="" class="wp-caption align{{include.align}}" style="width: {{ include.width }}px">
+  <dt>
+    <img class="" src="{{ site.baseurl }}{{ include.url }}" alt="{{ include.caption }}" />
+  </dt>
+  <dd>{{ include.caption }}</dd>
+</dl>
+{% if include.clear == true %}
+<p style="clear:both;"></p>
+{% endif %}

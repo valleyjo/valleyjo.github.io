@@ -31,9 +31,6 @@ I took the above picture from this vantage point:
 
 The trail was fairly easy for 4 miles or so until it took a steep turn up an adjacent mountain. Our group's skill level was widely varied. One person was on the trail for the first time while another has hiked well over two thousand miles. Some continued onward eager to test themselves with the challenge that awaited while a few others enjoyed themselves taking in the world around them. A group of four (which included myself) trekked onward for another ~600 feet of elevation until we had our fill of challenge. At one point the trail was completed eroded and the mountain side was dry and unstable. There was little to hold on to and each step sent a clump of rocks and dirt down the mountain side. Soon after passing this section we realized descending would be equally as challenging as ascending. We also needed to get back with the rest of the group so we did not continue any further up the mountain.
 
-The entire group:
-![the entire group](/images/hiking_the_pacific_northwest/entire_group.jpg)
-
 On the way home we stopped in the town of Poulsbo WA for a quick dinner. It just so happened to be "Viking Day" in Poulsbo, the town's yearly celebration of their Norwegian roots. It was founded by a group of Norwegians who traveled to the USA by boat and the west coast by train in the late 1800's. We had wood fired pizza for dinner before returning to the cars to finish the trip home.
 
 A washed out view of Poulsbo:

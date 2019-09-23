@@ -7,12 +7,12 @@ header-text:
 active-tab: blog
 ---
 
-###How It All Started
+## How It All Started
 When I was first approached by a good friend of mine, CJ, to apply to the DNLC I had no idea what he was talking about. I'd heard of consulting before but I had no idea what a consultant actually was. He briefly explained to me what a consultant does and why he thought I’d be a good fit for such a position. It sounded interesting and although I always pictured myself in the tech industry making consumer products I thought I’d give it a shot.
 
 CJ went to the DNLC the previous summer and accepted an internship position with Deloitte as a Business Technology Analyst (BTA) for the upcoming summer. He put me in touch with the Deloitte consulting recruiter out of the Pittsburgh office. CJ told me to email the recruiter my resume and shortly after the recruiter contacted me to schedule an interview. He also told me to apply online to get my information in the system.
 
-###DNLC Interview Preparation
+## DNLC Interview Preparation
 I got the lowdown of what the interview would be like from both CJ and another close friend who also accepted a BTA internship for the upcoming summer. I found out I would have three total interviews, one behavioral and two case. For the behavioral I reviewed traditional behavioral interview resources from my career services department at school. For the case interview prep, I got a copy of [“Case In Point”](http://www.amazon.com/Case-Point-Complete-Interview-Preparation/dp/0971015864) which I recommend you study extensively if you are preparing for a case interview.
 
 “Case in Point” is pretty helpful but I found the practice case questions included in the book to be slightly irrelevant for a tech consulting interview. I would recommend you skip the practice questions in the book but thoroughly study the sections that explain how to tackle a case interview. All case interviews are similarly structured and the book gives great insight on how you should prepare. Another one of my good friends works for Mckinsey as a consultant and he went over a few practice case interviews with me to get me prepared.
@@ -21,7 +21,7 @@ One sample question he gave me was: “I run a company that produces web analyti
 
 We discussed various approaches to the problem including: how should we adjust the sales packages to make more money, should we hire more sales people or hire more engineers to make more features etc…. He made up various numbers as we went through the case and we eventually came up with a suggestion for the imaginary client.
 
-###DNLC Behavioral Interview
+## DNLC Behavioral Interview
 Make sure you wear a suit! Everyone in the office was dressed professionally.
 
 When I arrived at the Deloitte Consulting floor in a large high-rise in downtown Pittsburgh I was greeted by my recruiter. The floor was very nicely furnished and it was an extremely professional environment (in stark contrast to some tech companies). My recruiter offered me a glass of water which I promptly accepted. I would definitely recommend accepting the glass of water. Interviews tend to dry out your mouth quite quickly.
@@ -30,7 +30,7 @@ After getting a short brief from my recruiter I was taken to a partner’s offic
 
 My phone went off during the interview with the consulting partner. It was quite embarrassing but he didn’t seem to mind. Regardless, I recommend silencing your phone during your interviews! Your interviewer might not be so laid back.
 
-###DNLC Case Interviews
+## DNLC Case Interviews
 After the behavioral interview, I was given a refill on my glass of water and taken to a consultant’s office where the case interviews began! My question was similar to this: “Imagine company A has locations in region X and company B has locations in regions Y and Z. A is significantly bigger than B and A decides to buy B. Both companies A and B use legacy software (but from different vendors) to manage their business operations. How should you go about merging the information from both A and B?”
 
 We talked about upgrading the software and putting all of the old information in the new software. We also talked about custom developing software for our purposes and how we would go about doing that.
@@ -43,7 +43,7 @@ The advice I have from going through these interviews is this: remember to stay 
 
 He was only trying to mimic a real world situation where you are working with a client and they are difficult to deal with. How you react under this pressure is super important! While you’re sitting across the table from your interviewer and they’re being intimidating it’s easy to stutter and want to give up. Don’t do that! Just keep thinking and make sure you can support your decisions and suggestions. Explain your thought process to your interviewer too!
 
-###Interview Results
+## Interview Results
 I found out about 2 weeks later or so that I’d been offered a chance to attend the Deloitte National Leadership Conference during July of the upcoming summer! I was ecstatic and super excited to travel to Deloitte University (DU) for the conference.
 
 I have an additional post detailing my experience at the DNLC and DU.
