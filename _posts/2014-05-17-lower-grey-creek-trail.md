@@ -1,9 +1,9 @@
 ---
 header-text:
-categories:   hiking pacific northwest
+categories:   [hiking]
 active-tab:   blog
 layout:       post
-title:        "Hiking the Pacific Northwest"
+title:        "Lower Grey Creek Trail"
 date:         2014-5-17 13:37:00
 ---
 
