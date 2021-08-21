@@ -1,7 +1,13 @@
 /**
  * Syntax highlighting styles
  */
+
 .highlight {
+    pre, code {
+        border: none;
+        overflow: hidden;
+    }
+
     background: #fff;
     @extend %vertical-rhythm;
 
