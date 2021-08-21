@@ -3,9 +3,10 @@
  */
 
 .highlight {
-    pre, code {
+    pre {
         border: none;
-        overflow: hidden;
+        overflow-x: auto;
+        overflow-y: hidden;
     }
 
     background: #fff;
