@@ -3,7 +3,7 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
-I write for a few reasons. If I had trouble finding resources on something, I might write about it here with a hope that I can help someone in the future. If it's something I'm passionate about, I also might write about it here. Lastly, I think writing is a way to clarify your thoughts and exposing that publicly is a push to produce something of quality rather than a few bulleted lists.
+Check out my [Washington Trails Association trip reports](https://www.wta.org/@@backpacks/scrnm-valleyjo)!
 
 You can look by category <a href="{{ site.baseurl }}/categories/">here</a>.
 
