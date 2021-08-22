@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Travel
-permalink: /miscellany/travel/
+permalink: /personal/travel/
 ---
 In chronological order most recent first.
 

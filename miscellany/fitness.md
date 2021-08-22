@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Strength Training
-permalink: /miscellany/strength-training/
+permalink: /personal/fitness/
 ---
 
 # Current Numbers
@@ -20,7 +20,7 @@ Most of my gains have come from distinct periods where I was able to invest enou
 I took a class in college on yoga which was my introduction. I would go occasionally, but with no regular schedule until January 2018 when I decided to start going consistently. Initially my intention was increased mobility to benefit my strength training but it quickly grew to more than that. Yoga for me is one of the things in my life that makes me feel most alive. I practice ashtanga yoga and can do a few cool tricks like jump though, jump back and press handstand.
 
 # Philosophy
-Yoga, weight lifting, 5 times a week… why bother? What is the point of all of this? *You are nothing without your health.* It doesn't matter how many friends you have and how much money you have if you can't enjoy it. Your health allows you to enjoy the fruits of your labor and spend time with people you love. When I'm old I want to be able to play sports with my grandkids rather than wallow in pain. This is why when I focus on my strength training and yoga, I have a bend towards safety and quality. My goal is to be healthy, not to win powerlifting competitions. You can see that through my training program as well as my diet
+Yoga, weight lifting, 5 times a week… why bother? What is the point of all of this? *You are nothing without your health.* It doesn't matter how many friends you have and how much money you have if you can't enjoy it. Your health allows you to enjoy the fruits of your labor and spend time with people you love. When I'm old I want to be able to play sports with my grandkids rather than wallow in pain. This is why when I focus on my strength training and yoga, I have a bend towards safety and quality. My goal is to be healthy, not to win powerlifting competitions. You can see that through my training program as well as my diet.
 
 # Barbell Weight Calculator
 I put the wrong weight on the barbell an embarrassing number of times. I made this weight calculator a long time ago to help me never make this mistake again.

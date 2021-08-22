@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Family
-permalink: /miscellany/family/
+permalink: /personal/family/
 ---
 For now the family is two humans and two cats. Our family started in 2018 when Catherine and I got married. We met a few years earlier at a service project in downtown Seattle. We were fast friends and started dating soon after we met. We have a ton of fun together and are always doing activities around the city. Catherine is the perfect partner for me. We complement each other and I'm continually amazed at how smart she is. Catherine has an amazing sense of humor and always thinks of fun new things for us to do.
 
