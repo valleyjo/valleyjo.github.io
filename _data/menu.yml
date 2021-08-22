@@ -8,6 +8,9 @@
   href: "/AlexVallejoResume.pdf"
   new_tab: true
 
+- title: "Projects"
+  href: "/Projects/"
+
 - title: "Personal"
   href: "/personal/"
   subcategories:
