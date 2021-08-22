@@ -1,9 +1,6 @@
 - title: "About"
   href: "/"
 
-- title: "Projects"
-  href: "/projects/"
-
 - title: "Blog"
   href: "/blog/"
 
@@ -11,12 +8,12 @@
   href: "/AlexVallejoResume.pdf"
   new_tab: true
 
-- title: "Miscellany"
-  href: "/miscellany/"
+- title: "Personal"
+  href: "/personal/"
   subcategories:
-    - subtitle: "Strength Training"
-      subhref: "/miscellany/strength-training/"
-    - subtitle: "Travel"
-      subhref: "/miscellany/travel/"
     - subtitle: "Family"
-      subhref: "/miscellany/family/"
+      subhref: "/personal/family/"
+    - subtitle: "Fitniess"
+      subhref: "/personal/fitness/"
+    - subtitle: "Travel"
+      subhref: "/personal/travel/"
