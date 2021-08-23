@@ -10,10 +10,10 @@ Should you really be passing that dictionary / hashmap between classes or if it 
 My team had a bug where a core scenario broke due to a case sensitivity error. The code with the bug was a private inner function:
 {% highlight csharp linenos %}
 // C#
-private async Task<Dictionary<string, byte[]>> GetBytesForIdsAsync(List<Guid> ids)
+private async Task<Dictionary<string, byte[]>> GetBytes(List<Guid> ids)
 {
   // (1) Use the client to get the payload
-  List<ByteMessage> messages = await this.client.GetBytesForIdsAsync(ids);
+  List<ByteMessage> messages = await this.client.GetBytes(ids);
   var idByteMap = new Dictionary<string, byte[]>();
   var retrievedIds = new List<string>(ids.Count);
  
@@ -42,22 +42,22 @@ Two easy fixes are apparent:
 1. Use `StringComparer.OrginalIgnoreCase` as a constructor parameter for the Dictionary
 2. Use `Guid` as the key type rather than `string`
 
-#2 is a poor solution because the code that accesses this Dictionary does so with a string. This would require adding even more test cases each time the Dictionary is accessed to handle cases where Guid.Parse fails.
+#2 is a poor solution because the code that accesses this Dictionary does so with a string. This would require adding even more test cases each time the Dictionary is accessed to handle cases where `Guid.Parse` fails.
 
 While both would solve this bug, they don’t address the root of the problem: **testability**.
 
-This code is very difficult to test. Since it’s a private function, one must test it through the calling public function. For each unit test in `GetBytesForIdsAsync` one must perform all the setup required for the calling function. In this case it involved configuring several non-trivial parameters and mocking the client. All of this is in addition to the other unit tests required for the calling function.
+This code is very difficult to test. Since it’s a private function, one must test it through the calling public function. For each unit test in `GetBytes` one must perform all the setup required for the calling function. In this case it involved configuring several non-trivial parameters and mocking the client. All of this is in addition to the other unit tests required for the calling function.
 
-Understandably, no one wants to do this much work to unit test. The result is that many scenarios in `GetBytesForIdsAsync` remain untested. In fact, only 1/7 test cases was tested properly which explains why failure occurred.
+Understandably, no one wants to do this much work to unit test. The result is that many scenarios in `GetBytes` remain untested. In fact, only 1/7 test cases was tested properly which explains why failure occurred.
 
 How can this code be refactored to be more testable? Let’s try using a first class collection.
 
 {% highlight csharp linenos %}
 // C#
-private async Task<ByteCollection> GetBytesForIdsAsync(List<Guid> ids)
+private async Task<ByteCollection> GetBytes(List<Guid> ids)
 {
   // (1) Use the client to get the payload
-  List<ByteMessage> messages = await this.client.GetBytesForIdsAsync(ids);
+  List<ByteMessage> messages = await this.client.GetBytes(ids);
  
   // (2) Parse the payloads and add to the map
   // (3) Save the retrieved Ids for logging
@@ -80,7 +80,7 @@ There are several key advantages to this approach:
 3. A common and well-tested access pattern via `this[string key]`
   1. No additional tests needed when `ByteCollection` is accessed to test errors
 4. ByteCollection is the right place to add more functionality in the event it becomes required
-5. Readability is increased because each line in `GetBytesForIdsAsync` now operates on a similar level of abstraction
+5. Readability is increased because each line in `GetBytes` now operates on a similar level of abstraction
 
 A combination of #1 and #2 leads to easily covering all seven unit test cases. As one focuses directly on these small test cases, one is much more likely to consider the case sensitivity issue. It’s easy to forget the case sensitivity edge case when attempting to test functionality several levels deep in private methods.
 

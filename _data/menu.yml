@@ -8,15 +8,15 @@
   href: "/AlexVallejoResume.pdf"
   new_tab: true
 
-- title: "Projects"
-  href: "/projects/"
+- title: "Experience"
+  href: "/experience/"
 
 - title: "Personal"
   href: "/personal/"
   subcategories:
     - subtitle: "Family"
       subhref: "/personal/family/"
-    - subtitle: "Fitniess"
+    - subtitle: "Fitness"
       subhref: "/personal/fitness/"
     - subtitle: "Travel"
       subhref: "/personal/travel/"

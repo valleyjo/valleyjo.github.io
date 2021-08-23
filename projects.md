@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /projects/
-title: Projects
+permalink: /experience/
+title: Experience
 ---
-Here's some work that can't fit on my resume.
+Here's a more comprehensive list of my experience:
 
 <ul>
   <li>
@@ -18,7 +18,7 @@ Here's some work that can't fit on my resume.
       <li>Implemented PXE packet forwarding for Azure host machines to facilitate a control plane physical host migration</li>
       <li>Built a fault domain monitoring service to ensure acceptable physical machine placement for control plane services</li>
       <li>Built a capacity management service for control plane services that controls automatic ordering of new machines</li>
-      <li>Worked on a filtered message delivery system built on top of Apache Kafka for low-latency high-fan-out scenarios. This project was cancelled by management despite showing promising results.</li>
+      <li>Worked on a filtered message delivery system built on top of Apache Kafka for low-latency high-fan out scenarios</li>
       <li>Working on the next generation container management platform for Azure Compute</li>
       <ol>
         <li>Built notifications for customers when their container experiences availability issues</li>
@@ -42,7 +42,7 @@ Here's some work that can't fit on my resume.
   </li>
   <li>
     <b>OneDrive for Business - Desktop Sync Client</b> - <i>Fall 2015 / Spring 2016</i>
-    <p>When I came back to Microsoft after my internship I was placed on a maintenance team for the "old" OneDrive sync engine. It was a crummy job that involved mostly minor bug fixes. I left after six months.</p>
+    <p>When I came back to Microsoft after my internship I was placed on a small maintenance team for the "old" OneDrive sync engine. I switched teams to the "new" sync engine after six months.</p>
   </li>
   <li>
     <b>OrgMan</b> - <i>Fall 2014 / Spring 2015</i>
