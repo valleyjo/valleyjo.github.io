@@ -11,12 +11,12 @@
 - title: "Experience"
   href: "/experience/"
 
-- title: "Personal"
-  href: "/personal/"
-  subcategories:
-    - subtitle: "Family"
-      subhref: "/personal/family/"
-    - subtitle: "Fitness"
-      subhref: "/personal/fitness/"
-    - subtitle: "Travel"
-      subhref: "/personal/travel/"
+#- title: "Personal"
+#  href: "/personal/"
+#  subcategories:
+#    - subtitle: "Family"
+#      subhref: "/personal/family/"
+#    - subtitle: "Fitness"
+#      subhref: "/personal/fitness/"
+#    - subtitle: "Travel"
+#      subhref: "/personal/travel/"
