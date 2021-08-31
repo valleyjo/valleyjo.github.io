@@ -5,7 +5,7 @@ date: 2021-08-13 15:10:00
 description: A case sensitivity bug breaks the service. How can we write more testable code?
 categories: [code,testing,design]
 ---
-Should you really be passing that dictionary / hashmap between classes or if it should be a first class collection? Let me share a cautionary tale.
+Should you really be passing that dictionary / hashmap between classes or should it be a first class collection? Let me share a cautionary tale.
 
 My team had a bug where a core scenario broke due to a case sensitivity error. The code with the bug was a private inner function:
 {% highlight csharp linenos %}
