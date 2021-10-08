@@ -8,7 +8,7 @@ Here's a more comprehensive list of my experience:
 <ul>
   <li>
     <b>Software Engineering Interviewer</b> - <i>Fall 2018 / Current</i>
-    <p>I've conducted over 60 software engineering interviews at Microsoft. These have been for positions from intern to senior level for both college and industry candidates.</p>
+    <p>I've conducted over 70 software engineering interviews at Microsoft. These have been for positions from intern to senior level for both college and industry candidates.</p>
   </li>
   <li>
     <b>Azure Compute</b> - <i>Winter 2018 / Current</i>
