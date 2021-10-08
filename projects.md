@@ -14,17 +14,17 @@ Here's a more comprehensive list of my experience:
     <b>Azure Compute</b> - <i>Winter 2018 / Current</i>
     <p>In Azure Compute I work on low-level, low-latency, high-reliability distributed systems. These systems are fundamental to Azure's core capabilities. Everything in Azure including other Microsoft offerings are built on top of these systems.</p>
     <ol>
-      <li>Implemented distributed tracing across several micro-services</li>
-      <li>Implemented PXE packet forwarding for Azure host machines to facilitate a control plane physical host migration</li>
-      <li>Built a fault domain monitoring service to ensure acceptable physical machine placement for control plane services</li>
-      <li>Built a capacity management service for control plane services that controls automatic ordering of new machines</li>
-      <li>Worked on a filtered message delivery system built on top of Apache Kafka for low-latency high-fan out scenarios</li>
       <li>Working on the next generation container management platform for Azure Compute</li>
       <ol>
         <li>Built notifications for customers when their container experiences availability issues</li>
         <li>Built integration with the deployment health system to ensure containers remain healthy when new bits roll out</li>
         <li>Built container repair capabilities to recover containers when they become faulted</li>
       </ol>
+      <li>Worked on a filtered message delivery system built on top of Apache Kafka for low-latency high fan-out scenarios</li>
+      <li>Built a capacity management service for control plane services that controls automatic ordering of new machines</li>
+      <li>Built a fault domain monitoring service to ensure acceptable physical machine placement for control plane services</li>
+      <li>Implemented PXE packet forwarding for Azure host machines to facilitate a control plane physical host migration</li>
+      <li>Implemented distributed tracing across several micro-services</li>
     </ol>
   </li>
   <li>

@@ -20,7 +20,7 @@ public class PayloadGenerator {
 
   public PayloadGenerator(
     T1 param1,
-    // More complicated params
+    // More complicated params, assume they are saved
     /* new */ bool encrypt,
     /* new */ Func<byte[], string> encryptLambda) {
       this.encrypt = encrypt;
@@ -43,17 +43,17 @@ public class PayloadGenerator {
 
   private void SetFoo(Payload payload) {
     // do more work
-    payload.Foo = this.encrypt ? param1.GetFoo() : encryptLambda(param1.GetFood);
+    payload.Foo = this.encrypt ? param1.GetFoo() : encryptLambda(param1.GetFoo());
   }
 
   private void SetBar(Payload payload) {
     // do more work
-    payload.Bar = this.encrypt ? param2.GetBar() : encryptLambda(param2.GetBar);
+    payload.Bar = this.encrypt ? param2.GetBar() : encryptLambda(param2.GetBar());
   }
 
   private void SetBaz(Payload payload) {
     // do more work
-    payload.Baz = this.encrypt ? param3.GetBaz() : encryptLambda(param3.GetBaz);
+    payload.Baz = this.encrypt ? param3.GetBaz() : encryptLambda(param3.GetBaz());
   }
 }
 {%endhighlight%}
@@ -69,7 +69,7 @@ public class PayloadGenerator {
 
   public PayloadGenerator(
     T1 param1,
-    // More complicated params
+    // More complicated params, assume they are saved
     /* new */ DataEncrypter encrypter) => this.encrypter = encrypter;
 
   public Payload Get() {
@@ -98,13 +98,14 @@ public class PayloadGenerator {
 
   private void SetBaz(Payload payload) {
     // do more work
-    this.encrypter(param3.GetBaz());
+    payload.Baz = this.encrypter(param3.GetBaz());
   }
 }
 
 public class DataEncrypter
 {
-  private readonly bool 
+  private readonly bool shouldEncrypt;
+
   public DataEncrypter(bool shouldEncrypt, X509Certificate2 cert) {
       this.shouldEncrypt = shouldEncrypt;
       this.cert = cert;
@@ -124,4 +125,4 @@ The last thing to verify is that `Foo`, `Bar` and `Baz` are present on the paylo
 
 We were able to add new functionality to a very complex class with full confidence and 100% scenario coverage. We were able to do this with only two new tests rather than six. We have a blueprint for any further changes related to encryption. This approach is more maintainable, readable and testable than the first attempt. It also takes the same effort as the original approach! Possibly even less time considering less testing is required for full scenario coverage.
 
-Did we really do this without branches? No, of course branches are still required. However, there are no new branches in the existing complex legacy code and this is where I see the major benefit.
+Did we really do this without branches? No, branches are still required. However, there are no new branches in the existing complex legacy code and this is where I see the major benefit.
