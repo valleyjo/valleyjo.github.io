@@ -16,6 +16,8 @@ Here's a more comprehensive list of my experience:
     <ol>
       <li>Working on the next generation container management platform for Azure Compute</li>
       <ol>
+        <li>Designed, spec-d and lead implementation for multiple workstreams</li>
+        <li>Designed and built a method for exposing transactionally consistent container data sourced from multiple microservices</li>
         <li>Built notifications for customers when their container experiences availability issues</li>
         <li>Built integration with the deployment health system to ensure containers remain healthy when new bits roll out</li>
         <li>Built container repair capabilities to recover containers when they become faulted</li>
@@ -26,6 +28,7 @@ Here's a more comprehensive list of my experience:
       <li>Implemented PXE packet forwarding for Azure host machines to facilitate a control plane physical host migration</li>
       <li>Implemented distributed tracing across several micro-services</li>
     </ol>
+    <br>
   </li>
   <li>
     <b>OneDrive - Desktop Sync Client</b> - <i>Spring 2016 / Fall 2017</i>
